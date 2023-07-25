@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.SaleInfoMapper">
+
+    <insert id="insert">
+        insert
+        into sale_info (ISBN, number, price, total, update_time, name)
+        values (
+                   #{isbn},
+                   #{number},
+                   (select price from book_info where ISBN=#{isbn}),
+                   #{number} * (select price from book_info where ISBN=#{isbn}),
+                   #{updateTime},
+                   (select name from book_info where ISBN=#{isbn})
+               );
+    </insert>
+
+    <!--统计销售情况-->
+    <select id="list" resultType="com.example.pojo.SaleInfo">
+        select *
+        , SUM(total) OVER() as total_sum
+        from sale_info
+        <where>
+            <if test="isbn != null and isbn != ''">
+                isbn = #{isbn}
+            </if>
+            <if test="updateTime != null">
+                and update_time = #{updateTime}
+            </if>
+        </where>
+        ORDER BY update_time DESC
+    </select>
+
+</mapper>

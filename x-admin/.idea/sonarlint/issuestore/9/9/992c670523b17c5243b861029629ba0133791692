@@ -1,0 +1,14 @@
+
+g	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8º×Ù•˜1
+L
+java:S3740("/Provide the parametrized type for this generic.(‚Ê«8»×Ù•˜1
+]	java:S125<"<This block of commented-out lines of code should be removed.(·¡á²şÿÿÿÿ8Ï×Ù•˜1
+X	java:S125E"<This block of commented-out lines of code should be removed.(øïÎò8Ğ×Ù•˜1
+X	java:S125H"<This block of commented-out lines of code should be removed.(¹Ìú´8ß´Ú•˜1
+X	java:S125["<This block of commented-out lines of code should be removed.(¼øµ8Ò×Ù•˜1
+X	java:S125e"<This block of commented-out lines of code should be removed.(¯öú‰8Ó×Ù•˜1
+X	java:S125y"<This block of commented-out lines of code should be removed.(øšäƒ8Õ×Ù•˜1
+p
+java:S1602š"SRemove useless curly braces around statement and then remove useless return keyword(£¸Â	8Ø×Ù•˜1
+]
+java:S1612š"@Replace this lambda with method reference 'UserRole::getRoleId'.(£¸Â	8Ø×Ù•˜1
