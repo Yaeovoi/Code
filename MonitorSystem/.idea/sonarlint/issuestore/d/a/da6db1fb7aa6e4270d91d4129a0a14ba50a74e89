@@ -1,0 +1,20 @@
+
+^
+java:S1128"<Remove this unused import 'com.example.sys.entity.LoginLog'.(¤®ãøÿÿÿÿ8¹ö¸˜1
+^
+java:S1128"<Remove this unused import 'com.example.sys.entity.UserInfo'.(ØÔì‡øÿÿÿÿ8ºö¸˜1
+b
+java:S1128"ERemove this unused import 'com.example.sys.service.ILoginLogService'.(Şû8Àá¹˜1
+T
+java:S1128"7Remove this unused import 'io.swagger.annotations.Api'.(·¦°Î8Àá¹˜1
+]
+java:S1128"@Remove this unused import 'io.swagger.annotations.ApiOperation'.(¡šÜ8ºö¸˜1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Àá¹˜1
+r
+java:S1128	"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿ8ºö¸˜1
+r
+java:S1128
+"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àıÿÿÿÿ8ºö¸˜1
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8ºö¸˜1

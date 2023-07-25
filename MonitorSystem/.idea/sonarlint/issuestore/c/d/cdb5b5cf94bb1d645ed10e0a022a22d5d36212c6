@@ -1,0 +1,12 @@
+
+g	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Èâ‹¸˜1
+L
+java:S3740)"/Provide the parametrized type for this generic.(‚Ê«8Ïş¹¹˜1
+y
+java:S1488."\Immediately return this expression instead of assigning it to the temporary variable "user".(‡¸’ø8Éâ‹¸˜1
+]	java:S125K"<This block of commented-out lines of code should be removed.(·¡á²şÿÿÿÿ8Õâ‹¸˜1
+A
+java:S1168g"$Return an empty map instead of null.(¥¹ï8×â‹¸˜1
+A
+java:S1168y"$Return an empty map instead of null.(¥¹ï8Øâ‹¸˜1
+Y	java:S125€"<This block of commented-out lines of code should be removed.(øšäƒ8¨´É¹˜1
